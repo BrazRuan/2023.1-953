@@ -96,7 +96,8 @@
     //     }
     // console.log(ordenaPalavras(['banana','maçã','amora','tomate','caqui']));
     // Acima, a programado uma função tipada
-    // A função genérica é formada para que atenda de forma genérica as demais possibilidades.
+    // A função genérica é formada para que atenda de forma genérica as demais possibilidades <>
+
 
     function ordena<T> (estrutura: T[]) : T[] {
         return estrutura.sort()
